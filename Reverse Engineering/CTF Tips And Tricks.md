@@ -40,15 +40,39 @@ To see a trace of the program, we can use:
 > strace <filename>
 ```
 The difference between these two tools is that strace intercepts system calls made by the glibc and other libraries  directly into the kernel. Ltrace intercepts library and system calls made by the application to C libraries such as glibc. They do display similar outputs, but it's good to know what each tool does before diving straight into it.
+
+
 If we don't get anything from these, then we start to play around with the binary. We execute it, and see what prompt it asks us for. We can input any of these to see what output we get:
+
+
 Characters: "A"
+
+
 Strings: "Hello World"
+
+
 Integers: 1
+
+
 Floating point numbers: 1.5
+
+
 Negative numbers: -1
+
+
 Boolean: True or False
+
+
 Format strings: %x
+
+
 Buffer overflow: (Provide more characters than the buffer can accept)
+
+
 Hex: 0xdeadc0de
+
+
 And some more may come to me later :)
+
+
 If none of those work, then I think that it's time to start using our tools.
