@@ -3,9 +3,9 @@
 #### Here, I go over the following things:
 1) [Tools](Tools.md)
 
-2) [Assembly](Assembly.md)
-&nbsp;* [Registers]()
-&nbsp;* [Syntax](https://github.com/TheWinRaRs/References/blob/master/Reverse%20Engineering/Assembly.md#syntax)
-&nbsp;* [Assembly language]
+2) [Assembly](Assembly.md)\
+&nbsp;* [Registers](Assembly.md#registers)\
+&nbsp;* [Syntax](Assembly.md#syntax)\
+&nbsp;* [Assembly language](Assembly.md#assembly-code)
 
 3) [CTF tips and tricks](CTF%20Tips%20And%20Tricks.md)
