@@ -35,11 +35,11 @@ rabin2 will return a lot more information about the binary than just it's file t
 Here, we're seeing what is happening with the program - we're now moving to dynamic analysis, as we're executing the binary and seeing what steps it's taking.\
 To see a trace of the program, we can use either:
 ```
-$ ltrace <filename>
+$ ltrace ./filename
 ```
 or
 ```
-$ strace <filename>
+$ strace ./filename
 ```
 The difference between these two tools is that `strace` intercepts *system calls* made by the *glibc* and other *libraries directly into the kernel*. `Ltrace` intercepts *library and system calls* made by the *application* to *C libraries such as glibc*. They do display similar outputs, but it's good to know what each tool does before diving straight into it.
 
