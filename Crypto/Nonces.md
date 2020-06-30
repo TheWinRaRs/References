@@ -1,6 +1,5 @@
 # Nonces
 
-You might think that a nonce is the type of guy that hangs out inside that park near your school, but a nonce is actually a random number that can be used only once in an authentication software. For example, if you get your hands on a nonce while trying to pen test a system, there's not much you can do with it any more, as it was only used once in the ciphertext.
 
 
 The use of nonces means that an attacker can't just replay previous comunications, as it will not be authenticated by the same chosen nonce. In the SSL/TLS handshake, the client and server exchange nonces, preventing man in the middle attacks.
